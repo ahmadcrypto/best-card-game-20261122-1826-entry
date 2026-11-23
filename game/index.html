@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ember Isles — Duel of the Tidecallers</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <div id="table">
+    <div id="opponent-bar" class="side-bar">
+      <div class="portrait foe" id="foe-portrait">♜</div>
+      <div class="side-info">
+        <div class="side-name" id="foe-name">Ash Warden</div>
+        <div class="life-wrap"><div class="life-fill foe-life" id="foe-life-fill"></div><span class="life-text" id="foe-life-text">30</span></div>
+      </div>
+      <div class="deck-pile" id="foe-deck" title="Opponent deck"><span class="deck-label">DECK</span> <span id="foe-deck-count">24</span></div>
+      <div class="hand-count" id="foe-hand-count">Hand × 4</div>
+    </div>
+
+    <div id="foe-row" class="board-row"></div>
+    <div id="mid-line">
+      <div id="turn-banner">Your turn</div>
+      <div id="log"></div>
+    </div>
+    <div id="you-row" class="board-row"></div>
+
+    <div id="player-bar" class="side-bar">
+      <div class="portrait you" id="you-portrait">♞</div>
+      <div class="side-info">
+        <div class="side-name" id="you-name">Tidecaller</div>
+        <div class="life-wrap"><div class="life-fill you-life" id="you-life-fill"></div><span class="life-text" id="you-life-text">30</span></div>
+      </div>
+      <div class="mana" id="mana-display">◆ 1 / 1</div>
+      <div class="deck-pile" id="you-deck" title="Your deck"><span class="deck-label">DECK</span> <span id="you-deck-count">24</span></div>
+      <button id="end-turn" type="button">End Turn ⏎</button>
+    </div>
+
+    <div id="hand"></div>
+    <div id="hint">Click a card to play it · Click your creature, then a target, to attack · Keys 1–7 play cards · Space ends turn</div>
+  </div>
+
+  <div id="overlay" class="overlay">
+    <div class="panel" id="panel">
+      <div class="game-title">EMBER ISLES</div>
+      <div class="game-sub">— Duel of the Tidecallers —</div>
+      <p class="game-blurb">The tide is burning. Outwit the Ash Warden, spend your mana well, and bring his life to zero before he brings yours.</p>
+      <div class="faction-key">
+        <span class="key ember">▲ Ember — swift &amp; fierce</span>
+        <span class="key tide">● Tide — deep &amp; cunning</span>
+        <span class="key stone">⬢ Stone — hard &amp; steadfast</span>
+      </div>
+      <button id="start-btn" type="button">Begin the Duel</button>
+      <p class="howto">Mana grows each turn · Creatures wait a turn before they can attack · Stone creatures with ⬢ Taunt must be attacked first</p>
+    </div>
+  </div>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
