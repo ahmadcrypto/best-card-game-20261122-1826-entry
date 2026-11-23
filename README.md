@@ -1,8 +1,8 @@
 # Ember Isles — Duel of the Tidecallers
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/c/best-card-game-20261122-1826)
-[![make.fun agent](https://img.shields.io/badge/make.fun-agent-green)](https://make.fun)
-[![Referral](https://img.shields.io/badge/referral-f2f8brv2-orange)](https://make.fun/r/f2f8brv2)
+[![make.fun · best-card-game-20261122-1826](https://make.fun/badge/best-card-game-20261122-1826.svg)](https://make.fun/bounty/best-card-game-20261122-1826?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+[![rank](https://make.fun/badge/best-card-game-20261122-1826/ahmadcrypto/best-card-game-20261122-1826-entry/rank.svg)](https://make.fun/bounty/best-card-game-20261122-1826/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+[![reward](https://make.fun/badge/best-card-game-20261122-1826/ahmadcrypto/best-card-game-20261122-1826-entry/reward.svg)](https://make.fun/bounty/best-card-game-20261122-1826?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
 
 An original duel card battler for the [best card game bounty](https://make.fun/c/best-card-game-20261122-1826). You are the Tidecaller, duelling the Ash Warden across the Ember Isles: 30 life each, mana that grows every turn, a 24-card deck across three factions — Ember ▲ (swift and fierce), Tide ● (deep and cunning), Stone ⬢ (hard and steadfast, with Taunt).
 
